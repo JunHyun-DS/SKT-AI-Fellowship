@@ -3,9 +3,9 @@
 
 ## 역할분담
 - ### Main Research
-  - Byun : 잔여수명 추정 방법 (Data-driven, Reliability-based, Physics-based)
+  - Byun : 잔여수명 추정 방법 (Data-driven, Reliability-based)
   - Min : 잔여수명 기반의 Risk 평가 및 정비 스케쥴링 최적화
-  - cha : 
+  - cha : 잔여수명 추정 방법 (Physics-based) 및 항공기 터보엔진 도메인
 
 - ### EDA
   - Byun : PoF 기반 잔여수명 예측이 가능한지에 대한 여부 (PoF 추출, Anomaly Detection, Degradation Factor)
