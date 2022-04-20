@@ -1,5 +1,5 @@
 # SKT-AI-Fellowship
-[｢SKT AI Fellowship｣](https://www.sktaifellowship.com/5be6908c-b57f-4940-8ee6-7dbd1c5e1177) "설비(로봇)의 잔여수명 예측" 준비과정입니다. 
+[SKT AI Fellowship](https://www.sktaifellowship.com/5be6908c-b57f-4940-8ee6-7dbd1c5e1177) "설비(로봇)의 잔여수명 예측" 준비과정입니다. 
 
 ## 역할분담
 - Byun : 
