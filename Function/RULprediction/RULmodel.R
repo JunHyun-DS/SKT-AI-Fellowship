@@ -115,6 +115,11 @@ RULplot <-  function(test_x, test_y, CL, failure_criteria, time, model_param, mo
 # RUL System (Information + Visualization)
 RULsystem <- function(train_x, train_y, test_x, test_y, time=c(701,984), weight, mean_life, failure_criteria, alpha=0.05, model='WLR', info=T, plot_type = TRUE, ...){
   
+  train_x = as.matrix(train_x)
+  train_y = as.matrix(train_y)
+  test_x = as.matrix(test_x)
+  test_y = as.matrix(test_y)
+  
   # RUL per time
   rul_mat = matrix(0, time[2]-time[1]+1, 1)
   row.names(rul_mat) = time[1]:time[2]
