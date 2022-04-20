@@ -5,7 +5,6 @@ mset_regress <- function(train, test){
       MSET (Multivariate State Estimation Technique) Regression
       MSET Regression is Anomaly Detection method 
       The description of MSET : https://www.ne.anl.gov/codes/mset/
-      
     @Param
       train : train data (In-control data) 
       test : test data
