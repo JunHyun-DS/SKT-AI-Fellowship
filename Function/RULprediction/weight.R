@@ -1,21 +1,3 @@
-# 지수적으로 증가하는 weight  (1-alph)^2, (1-alpha)^3, (1-alpha)^4
-# exponential_weight = function(x, y, alpha=0.05){
-#   x = as.matrix(x)
-#   y = as.matrix(y)
-#   weight_vec = matrix(0, nrow(y), 1)
-#   for(i in 1:nrow(y)){
-#     weight = (1-alpha)^i
-#     weight_vec[i,1] = weight
-#   }
-#   weight = as.matrix(sort(weight_vec, decreasing=F))
-#   
-#   weight_mat = matrix(0, nrow(weight_vec), nrow(weight_vec))
-#   diag(weight_mat) = weight
-#   
-#   ret = weight_mat
-#   return(ret)
-# }
-
 exponential_weight = function(x, y, alpha=0.05){
   Comment = "
   @Description
