@@ -42,7 +42,6 @@ variation_weight = function(x, y, lag=1){
   return(ret)
 }
 
-# plot(diag(weight))
 time_variation_weight = function(x, y, lag=1, alpha=0.05){
   x = as.matrix(x)
   y = as.matrix(y)
