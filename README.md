@@ -8,5 +8,5 @@
 
 - ### EDA
 - Byun : PoF 기반 잔여수명 예측이 가능한지에 대한 여부
-- Min : Feature Selection
-- cha : 항공 터보엔진 도메인 조사
+- Min : 항공기 터보 엔진 수명에 영향을 주는 주요변수 파악 (Feature Selection, PCA, Correlation Analysis)
+- cha : 항공기 터보엔진 도메인 조사
