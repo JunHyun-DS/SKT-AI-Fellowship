@@ -3,7 +3,7 @@
 
 ## 역할분담
 - Byun : 잔여수명 추정 방법 (Data-driven, Reliability-based, Physics-based)
-- Min : RUL 기반의 Risk 평가 및 정비 스케쥴링 최적화
+- Min : 잔여수명 기반의 Risk 평가 및 정비 스케쥴링 최적화
 - cha : 
 
 - ### EDA
