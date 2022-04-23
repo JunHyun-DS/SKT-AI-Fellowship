@@ -14,5 +14,15 @@
  
 - Correlation의 크기를 활용한 잔여수명 예측 가능 여부 판단 (2)
 
+<h3><b>잔여수명 예측</h3></b>
+
+ - LSTM을 이용한 잔여수명 예측
+ 
+ - Exponentially Weighted Regression을 이용한 잔여수명 예측
+ 
+  - Polynomial Regression
+ 
+  - Exponential Regression
+
 
  
