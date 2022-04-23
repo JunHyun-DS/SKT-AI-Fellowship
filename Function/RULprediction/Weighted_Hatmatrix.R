@@ -1,4 +1,4 @@
-# WMSE based Hatmatrix (solve)
+# Weighted Least Square Estiamtion (solve)
 Weighted_Hatmatrix_solve = function(x, y, weight){
   library(MASS)
   x = as.matrix(x)
@@ -15,22 +15,22 @@ Weighted_Hatmatrix_solve = function(x, y, weight){
   return(w_beta)  
 }
 
-# WMSE based Hatmatrix (ginv)
-# Weighted_Hatmatrix_ginv = function(x, y, weight){
-#   library(MASS)
-#   x = as.matrix(x)
-#   y = as.matrix(y)
-#   
-#   w = as.matrix(weight)
-#   beta0 = matrix(1, nrow(x), 1)
-#   x = cbind(beta0, x)  
-#   
-#   # WMSE based Hatmatrix
-#   w_beta = ginv(t(x)%*%w%*%x, tol=sqrt(.Machine$double.eps)^10) %*% t(x)%*%w %*% y
-#   
-#   ret = w_beta
-#   return(w_beta)  
-# }
+# Weighted Least Square Estiamtion (ginv)
+Weighted_Hatmatrix_ginv = function(x, y, weight){
+  library(MASS)
+  x = as.matrix(x)
+  y = as.matrix(y)
+
+  w = as.matrix(weight)
+  beta0 = matrix(1, nrow(x), 1)
+  x = cbind(beta0, x)
+
+  # WMSE based Hatmatrix
+  w_beta = ginv(t(x)%*%w%*%x, tol=sqrt(.Machine$double.eps)^10) %*% t(x)%*%w %*% y
+
+  ret = w_beta
+  return(w_beta)
+}
 
 
 # test_x = 1:nrow(AE_ts_deg$degradation)
