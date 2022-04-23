@@ -20,9 +20,9 @@
  
  - Exponentially Weighted Regression을 이용한 잔여수명 예측
  
-  - Polynomial Regression
+ >- Polynomial Regression
  
-  - Exponential Regression
+ >- Exponential Regression
 
 
  
