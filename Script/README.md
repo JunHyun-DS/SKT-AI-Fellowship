@@ -14,11 +14,14 @@
  <br>
 <h3><b>3. 잔여수명 예측</h3></b>
 
- - LSTM을 이용한 잔여수명 예측
+- 데이터 기반 잔여수명 예측
+     - LSTM을 이용한 잔여수명 예측
  
- - Exponentially Weighted Regression을 이용한 잔여수명 예측
-      - Polynomial Regression 
-      - Exponential Regression
+     - Exponentially Weighted Regression을 이용한 잔여수명 예측
+          - Polynomial Regression 
+          - Exponential Regression
 
+- 신뢰성 기반 잔여수명 예측
+- 물리 기반 잔여수명 예측
 
  
