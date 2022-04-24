@@ -21,7 +21,11 @@
           - Polynomial Regression 
           - Exponential Regression
 
+ 
 - 신뢰성 기반 잔여수명 예측
+     - 정규분포
+     - 
+ 
 - 물리 기반 잔여수명 예측
 
  
