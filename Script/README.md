@@ -28,4 +28,11 @@
  
 - 물리 기반 잔여수명 예측 (Physics-based approach)
 
+<h3><b>4. 정비 스케쥴링</h3></b>
+     - 잔여수명 정보 Risk 변환
+ 
+     - Genetic Algorithm을 활용한 정비 스케쥴링 최적화
+
+
+
  
