@@ -24,7 +24,7 @@
  <br>
 - 신뢰성 기반 잔여수명 예측 (Reliability-based approach)
      
-     - 와이블 분포
+    - 와이블 분포
  
  <br>
 - 물리 기반 잔여수명 예측 (Physics-based approach)
