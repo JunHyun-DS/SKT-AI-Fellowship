@@ -14,7 +14,7 @@
  <br>
 <h3><b>3. 잔여수명 예측</h3></b>
 
-- 데이터 기반 잔여수명 예측
+- 데이터 기반 잔여수명 예측 (Data-driven approach)
      - LSTM을 이용한 잔여수명 예측
  
      - Exponentially Weighted Regression을 이용한 잔여수명 예측
@@ -22,10 +22,10 @@
           - Exponential Regression
 
  
-- 신뢰성 기반 잔여수명 예측
+- 신뢰성 기반 잔여수명 예측 (Reliability-based approach)
      
      - 와이블 분포
  
-- 물리 기반 잔여수명 예측
+- 물리 기반 잔여수명 예측 (Physics-based approach)
 
  
