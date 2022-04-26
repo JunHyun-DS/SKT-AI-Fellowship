@@ -25,9 +25,9 @@
  
 - 신뢰성 기반 잔여수명 예측 (Reliability-based approach)
      
-     - 와이블 분포
-     - 지수 분포
-     - 대수 정규 분포
+     - 와이블 분포 (Weibull Distribution)
+     - 지수 분포 (Exponential Distribution)
+     - 대수 정규 분포 (Log Normal Distribution)
  
  <br>
  
